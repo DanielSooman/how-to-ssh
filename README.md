@@ -39,7 +39,7 @@ cat ~/.ssh/id_rsa
 
 Do you need to copy the public key to clipboard as well?
 
-4. **Upload public key to VPS**:
+4. **Upload public key to VPS**: **(optional for ARA)**
 
    ```bash
    ssh-copy-id user@your-vps-ip
