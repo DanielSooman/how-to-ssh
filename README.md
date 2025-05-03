@@ -56,7 +56,11 @@ Do you need to copy the public key to clipboard as well?
    ```bash
    ssh user@your-vps-ip
    ```
-
+**Manually specify the private key (if needed):
+**
+```
+ssh -i ~/.ssh/your_key ubuntu@ip
+```
 ---
 
 **Note**: Make sure `sshd` on VPS allows key-based authentication.
