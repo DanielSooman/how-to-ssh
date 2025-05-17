@@ -66,3 +66,12 @@ ssh -i ~/.ssh/your_key ubuntu@ip
 **Note**: Make sure `sshd` on VPS allows key-based authentication.
 
 Do you want to use `ed25519` instead of `rsa`?
+
+
+
+
+
+# Tranfer Files
+```
+scp /path/to/swarm.pem user@your-vps-ip:/desired/remote/path/
+```
